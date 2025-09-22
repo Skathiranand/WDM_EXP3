@@ -1,5 +1,5 @@
-### EX-3 :Implementation of GSP Algorithm In Python
-### DATE: 12-09-2025
+# EX-3 :Implementation of GSP Algorithm In Python
+## DATE: 22-09-2025
 ### AIM: To implement GSP Algorithm In Python.
 ### Description:
 The Generalized Sequential Pattern (GSP) algorithm is a data mining technique used for discovering frequent patterns within a sequence database. It operates by identifying sequences that frequently occur together. GSP works by employing a depth-first search strategy to explore and extract frequent patterns efficiently.
@@ -104,15 +104,15 @@ else:
     print("No frequent sequential patterns found in Bottom Wear.")
 ```
 ### Output:
-<img width="408" height="446" alt="image" src="https://github.com/user-attachments/assets/465752aa-134e-41f0-9239-b469333c8d5a" />
-<img width="401" height="568" alt="image" src="https://github.com/user-attachments/assets/3346aafa-8cd6-4337-b60f-139b31604e1e" />
-<img width="520" height="519" alt="image" src="https://github.com/user-attachments/assets/19c43a02-ac18-4e30-bacf-23b8b356c26e" />
+
+<img width="999" height="620" alt="image" src="https://github.com/user-attachments/assets/e2757106-b212-4bd5-808e-5f9b857b9f81" />
+
+<img width="996" height="607" alt="image" src="https://github.com/user-attachments/assets/cccd697f-fd03-41d2-8e4a-eae5df394ceb" />
 
 ### Visualization:
 ```python
 import matplotlib.pyplot as plt
 
-# Function to visualize frequent sequential patterns with a line plot
 def visualize_patterns_line(result, category):
     if result:
         patterns = list(result.keys())
@@ -129,14 +129,14 @@ def visualize_patterns_line(result, category):
     else:
         print(f"No frequent sequential patterns found in {category}.")
 
-# Visualize frequent sequential patterns for each category using a line plot
 visualize_patterns_line(top_wear_result, 'Top Wear')
-visualize_patterns_line(bottom_wear_result, 'Bottom Wear')```
+visualize_patterns_line(bottom_wear_result, 'Bottom Wear')``
 ```
 ### Visualization Output:
-<img width="1279" height="723" alt="image" src="https://github.com/user-attachments/assets/2d1b4e7c-7727-4a09-b837-0853c28b8526" />
-<img width="1261" height="719" alt="image" src="https://github.com/user-attachments/assets/37716f63-89bc-4c13-83ce-19d48e0cc9ae" />
 
+<img width="998" height="582" alt="image" src="https://github.com/user-attachments/assets/e0ee713e-b2f4-4e6d-a704-68b489a7e542" />
+
+<img width="985" height="588" alt="image" src="https://github.com/user-attachments/assets/4d18ddaa-c812-4208-bd43-d19991cbc13c" />
 
 ### Result:
 GSP Algorithm In Python has been implemented successfully.
